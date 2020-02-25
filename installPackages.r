@@ -12,4 +12,6 @@ install.packages("ggplot2");
 
 install.packages("maps");
 
-install.packages("ggmap")
+install.packages("ggmap");
+
+install.pacakges("igraph")

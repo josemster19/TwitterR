@@ -15,7 +15,7 @@ points <- data.frame(x = as.numeric(tweets.df$lon), y = as.numeric(tweets.df$lat
 
 # get map
 
-register_google(key ="AIzaSyAKRXMDz6MniHleNjE39rwuUzyqixwfeVI")   # First time you need to register your session into google
+register_google(key ="API_KEY")   # First time you need to register your session into google
 
 spain <- get_map('Spain', zoom=6);
 spainMap <- ggmap(spain, extent='device', legend='topleft');
